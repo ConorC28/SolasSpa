@@ -1,0 +1,250 @@
+html{
+overflow-y: scroll;
+}
+body{
+background-image:url("../images/bkpic.png"); 
+/*background:#eee67c;*/
+/*background-repeat:no-repeat;
+background-attachment:fixed;
+background-position:center;
+background-image:url("../Images/backgroundImg2.png");
+background-size:cover;
+-webkit-background-size:cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+height:100%;
+width:100%;*/
+}
+#navigation li{
+list-style-type:none;
+}
+#navigation{
+text-align:center;
+margin:0 auto;
+font-size: 15px;
+line-height: 50px;
+}
+.topBack{
+width:auto;
+border-radius:15px;
+border:10px solid #008f46;
+background:#cbcc00;
+padding-bottom:7px;
+}
+#navigation ul{
+list-style-type:none;
+}
+#navigation button:hover{
+background: #eee67c;
+text-decoration: underline;
+color: black;
+}
+#treatments{
+text-align:center;
+margin:0 auto;
+font-size: 15px;
+line-height: 50px;
+}
+#home{
+font-size:15px;
+font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+margin:10px;
+width:100px;
+padding: 2% 4% 2% 4%;
+background: #fff;
+text-decoration: none;
+color: black;
+border:3px solid #008f46;
+border-radius:8px;
+transition-duration: 500ms;
+}
+#about{
+font-size:15px;
+font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+margin:10px;
+width:100px;
+padding: 2% 4% 2% 4%;
+background: #fff;
+text-decoration: none;
+color: black;
+border:3px solid #008f46;
+border-radius:8px;
+transition-duration: 500ms;
+}
+#contact{
+font-size:15px;
+font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+margin:10px;
+width:100px;
+padding: 2% 4% 2% 2%;
+background: #fff;
+text-decoration: none;
+color: black;
+border:3px solid #008f46;
+border-radius:8px;
+transition-duration: 500ms;
+}
+#treatmentsBtn{
+font-size:15px;
+font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+margin:10px;
+width:100px;
+padding: 2% 4% 2% 1%;
+background: #fff;
+text-decoration: none;
+color: black;
+border:3px solid #008f46;
+border-radius:8px;
+transition-duration: 500ms;
+}
+.treatments button{
+margin:20px;
+}
+#treatments ul{
+list-style-type:none;
+}
+#treatments button:hover{
+background: #9fe0d7;
+text-decoration: underline;
+color: black;
+}
+#body{
+font-size:15px;
+font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+margin:15px;
+width:100px;
+padding: 2% 4% 2% 4%;
+background: #fff;
+text-decoration: none;
+color: black;
+border:3px solid #008f46;
+border-radius:8px;
+transition-duration: 500ms;
+}
+#facial{
+font-size:15px;
+font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+margin:15px;
+width:100px;
+padding: 2% 4% 2% 4%;
+background: #fff;
+text-decoration: none;
+color: black;
+border:3px solid #008f46;
+border-radius:8px;
+transition-duration: 500ms;
+}
+#eye{
+font-size:15px;
+font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+margin:15px;
+width:100px;
+padding: 2% 4% 2% 4%;
+background: #fff;
+text-decoration: none;
+color: black;
+border:3px solid #008f46;
+border-radius:8px;
+transition-duration: 500ms;
+}
+#nail{
+font-size:15px;
+font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+margin:6px;
+width:100px;
+padding: 2% 4% 2% 4%;
+background: #fff;
+text-decoration: none;
+color: black;
+border:3px solid #008f46;
+border-radius:8px;
+transition-duration: 500ms;
+}
+#waxing{
+font-size:15px;
+font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+margin:6px;
+width:100px;
+padding: 2% 4% 2% 3%;
+background: #fff;
+text-decoration: none;
+color: black;
+border:3px solid #008f46;
+border-radius:8px;
+transition-duration: 500ms;
+}
+#treatmentPackages{
+font-size:15px;
+font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+margin:6px;
+width:100px;
+padding: 2% 4% 2% 1%;
+background: #fff;
+text-decoration: none;
+color: black;
+border:3px solid #008f46;
+border-radius:8px;
+transition-duration: 500ms;
+}
+.picBox{
+width:auto;
+display: block;
+margin-left:auto;
+margin-right:auto;
+padding-top:10px;
+padding-left:10px;
+padding-right:10px;
+text-align:center;
+border-radius:15px;
+background:#cbcc00;
+border:10px solid #008f46;
+}
+#smBox{
+padding-bottom:20px;
+padding-top:20px;
+text-align:center;
+border:10px solid #008f46;
+background:#cbcc00;
+border-radius:15px;
+height:auto;
+width:auto;
+}
+ul ul{
+display:none;
+}
+#contactBx ul{
+display:none; 
+font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+padding-top:10px;
+}
+.contentBox{
+text-align:center;
+font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+margin-top:20px;
+border-radius:15px;
+border:10px solid #008f46;
+background:#cbcc00;
+padding-bottom:20px;
+padding-top:10px;
+}
+#welText{
+font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+font-size:20px;
+margin:0 auto;
+}
+#contactBx{
+font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+font-size:15px;
+margin:0 auto;
+}
+#ctacts pre{
+font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+height:auto;
+text-align:center;
+margin:0 auto;
+line-height:30px;
+}
+#ctacts img{
+vertical-align:sub;
+padding-top:5px;
+}

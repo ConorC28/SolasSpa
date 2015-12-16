@@ -1,0 +1,195 @@
+<!DOCTYPEhtml>
+<html lang="en">
+
+<html>
+	
+	<head>
+	<meta charset="utf-8" />
+		<title>
+				SolasTherapies
+		</title>
+		
+		<link rel = "Icon" href = "images/imgTop.png"/>
+		<!--css3-mediaqueries-js - http://code.google.com/p/css3-mediaqueries-js/ - Enables media queries in some unsupported browsers-->
+		
+		<script language="JavaScript"  type="text/javascript" src="js/script.js"></script>
+		<script language="JavaScript" type="text/javascript" src="js/css3-mediaqueries.js"></script>
+		<script language="JavaScript" src="js/jquery.min.js" type="text/javascript" ></script>
+		<script language="JavaScript" src="js/jquery-1.8.3.js" type="text/javascript" ></script>
+		<script language="JavaScript" src="js/slippry.min.js" type="text/javascript" ></script></script>
+		<script language="JavaScript" src="js/script.js" type="text/javascript" ></script></script>
+				
+		<!--stuff for js slide show-->
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge"> <!-- For intranet testing only, remove in production. -->
+		<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+		
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		
+		<!-- The 1140px Grid - http://cssgrid.net/ -->
+		<link rel="stylesheet" href="css/1140.css" type="text/css" media="screen" />
+	
+		<!-- Your styles -->
+		<link rel="stylesheet" href="css/styles.css" type="text/css" media="screen" />
+		<link rel="stylesheet" href="css/slippry.css">	
+		<link rel="stylesheet" href="css/main.css" type="text/css"/>
+		
+		
+		
+		
+			
+		
+	</head>
+	
+	<body>
+	
+		<div class = "container">		
+				<div class="row">
+						<div class="sevencol">
+							<div class = "topBack">
+								<img src="images/solaslogoalt.png" alt = "solasLogo" width="auto" height="auto" class="logoimg"/>
+							
+								<ul id="navigation">
+									<li>
+										<button id = "home">Home</button>
+										<button id = "about">About</button>
+										<button id = "contact">Contact</button>
+										<button id = "treatmentsBtn">Treatments</a>
+										</li>
+										
+									<ul id  = "treatments"> 
+										<li>
+										<button id = "body">Body</button>
+										<button id = "facial">Facial</button>
+										<button id = "eye">Eye</button>
+										</li>
+										<li>
+										<button id = "nail">Nail</button>
+										<button id = "waxing" >Waxing</button>
+										<button id = "treatmentPackages">Packages</a>
+										</li>
+									</ul>
+								</ul>		
+									
+								
+								
+							</div>	
+								<div class = "twelvecol">
+									<div class = "contentBox">
+										<p id = "welText">Welcome to Solas Spa Therapies new website. Please browse our Treatments and Offers to 
+														  find the relaxation right for you!</br></br>
+														  Jessica completed studies at Jewel and Esk Valley College and then progressed to Mary Reid 
+														  International School of Beauty. Once finished Jess sought employment by the UK's number one 
+														  skin care company in one of their top three performing salons. During a period of four years
+														  here She gained an immeasurable amount of experience in all aspects of professional beauty 
+														  and health treatments.  
+														  </p>
+									</div>
+								</div>
+							
+						</div>
+						<div id class="fivecol last">
+							
+								<div class ="picBox">
+									<ul id = "slides">
+										<li><a href="#">
+										<img src = "images/spapic.png" alt = "" />
+										</a>
+										</li>
+										<li><a href="#">
+										<img src="images/sp1edit.png" alt = "" />
+										</a>
+										</li>
+									</ul>
+								</div>
+							<div id = "smBox">
+								
+								<img src="images/FBImg.png" alt = "fbpic"  class = "fbpic1">
+								
+								
+								<img src="images/TwitImg.png" alt = "Tpic" class = "tpic1">
+							
+							<div id = "contactBx">
+								<ul id = "ctacts">
+								<pre>Where you'll find us</pre>
+								<pre>-</pre>  
+								<pre>THE EDINBURGH MARRIOTT HOTEL</pre>
+								<pre> 111 GLASGOW ROAD </pre>
+								<pre>EDINBURGH | EH12 8NF</pre>
+								<pre><img src = "images/telephone.png" alt = "telePic" class = "telPic">  -  07713487737</pre>
+								<pre><img src = "images/emImg.png" alt = "emailPic" class = "emPic">  -  INFO@SOLASTHERAPIES.COM</pre>        
+								
+								
+								</ul>
+							</div>
+							</div>
+								
+						</div>
+				</div>
+			
+		
+</div>
+		
+		
+		
+		
+		<script> <!-- Slide show + menus script -->
+		$('#home').on('click',function(){
+		window.location.reload()
+    });
+				
+		$('#body').on('click',function(){
+    if($('#welText').css('display')!='none'){
+    $('#welText').html('<h2>Body</h2><br><br>Personalised Aromatherapy Massage (1hr.20mins) - £45<br><br><h3>-</h3><br><br>A luxurious full body massage using a personalised blend of essential oils to suit youremotional and physical needs. This treatment uses a light to medium pressure to<br><br>Deep Tissue Muscle Ease Massage (1hr 20min) - £50<br><br><h3>-</h3><br><br>A full body massage personalised to focus on your specific areas of tension. Using our muscle ease massage oil and a medium to firm pressure, this treatment will breakdown knots and release tight muscles leaving you energised.<br><br>Back, Neck and Shoulder Soother (30 min) - £25<br><br><h3>-</h3><br><br>A soothing back massage designed to ease out tension in all the problematic areas.Choose between an energising or stress relief oil to suit your mood.<br><br>Indian Head Massage (1hr) - £35<br><br><h3>-</h3><br><br>A truly indulgent treatment. incorporating a neck and shoulder massage and luxurious scalp massage this treatment will allow you to truly unwind and melt away.').fadeIn().siblings('div').hide();
+    }});
+	
+	$('#facial').on('click',function(){
+    if($('#welText').css('display')!='none'){
+    $('#welText').html('<h2>Facial</h2><br><br>Dermalogica Facial Treatment (1hr) - £36<br><br><h3>-</h3><br><br>A custom made facial to suit all your skincare concerns. This treatment will cleanse and buff away impurities, leaving your skin fresh and radiant.<br><br>Dermalogica Age Smart Facial Treatment (1hr 15 mins) - £42<br><br><h3>-</h3><br><br>Ideal for mature or prematurely aging skin. This deeply replenishing facial resurfaces and stimulates collagen production. It will maintain the firmness of the skin and slow down the signs of aging.<br><br>Dermalogica Active Resurface 35 (45mins) - £42<br><br><h3>-</h3><br><br>An advanced resurfacing treatment that applies a cocktail of advanced cosmeceutical ingredients and provides intense resurfacing to stimulate cell renewal and cell turnover whilst helping to treat some of the most prevalent skin concerns (pigmentation, dehydration, dehydration and congestion). A unique benefit of the Active Resurface 35 treatment is the lack of inflammation, tissue damage and peeling generally associated with intense resurfacing treatments. As a result, an interval of only one week is all that is necessary between appointments when partaking in a six-course treatment plan.<br><br>Dermalogica Express Facial (40 mins) - £25<br><br><h3>-</h3><br><br>The perfect treatment to maintain your skin on the go. A short but powerful treatment to re-energise your skin.').fadeIn().siblings('div').hide();
+    }});
+		
+	$('#eye').on('click',function(){
+    if($('#welText').css('display')!='none'){
+    $('#welText').html('<h2>Eye</h2><br><br>Eyebrow shape - £8<br><br>Eye lash tint - £10<br><br>Eye brow tint - £7<br><br>Eye lash/ eye brow tint - £15').fadeIn().siblings('div').hide();
+    }});
+
+	$('#nail').on('click',function(){
+    if($('#welText').css('display')!='none'){
+    $('#welText').html('<h2>Nail</h2><br><br>Shellac manicure or pedicure - £20<br><br>O.P.I. File and Polish - £14<br><br><h3>-</h3><br><br>A quick fix for ladies on the go. File, cuticles pushed back, base, colour and top coat.<br><br>Full O.P.I. Manicure/Pedicure - £20<br><br><h3>-</h3><br><br>A luxurious treat for the hands or feet. Beginning with a soothing hand/foot soak and exfoliation, file, full cuticle work, relaxing massage, nail treatment, base, colour and glossy top coat.').fadeIn().siblings('div').hide();
+    }});	
+	
+	$('#waxing').on('click',function(){
+    if($('#welText').css('display')!='none'){
+    $('#welText').html('<h2>Waxing</h2><br><br>Full leg - £25<br><br>1/2 leg - £15<br><br>Underarm - £9<br><br>Lip or chin - £5<br><br>Lip and chin - £9').fadeIn().siblings('div').hide();
+    }});
+
+	$('#treatmentPackages').on('click',function(){
+    if($('#welText').css('display')!='none'){
+    $('#welText').html('<h2>Packages</h2><br><br>Express maintenance (1hr) - £45<br><br><h3>-</h3><br><br>Designed for ladies on the go. Beginning with a Dermalogica facial to rejuvenate tiredskin, followed by a stress busting back massage, this package will have you fighting fitwithin the hour!<br><br>Indulgent Relaxation (2hr) - £65<br><br><h3>-</h3><br><br>Need a pick me up? An indulgently relaxing treatment incorporating a luxurious full body aromatherapy massage and prescription Dermalogica facial. This package promotes top-to-toe well-being, rejuvenating the entire body.<br><br>Stress Relief (2hr) - £65<br><br><h3>-</h3><br><br>Long day at the office? This stress busting treatment is designed to release tense and knotted muscles from the tips of your toes and the top of your head. Beginning with a personalised deep tissue body massage, followed by a heavenly half hour neck and scalp massage, this package will melt away all of your aches and pains.').fadeIn().siblings('div').hide();
+    }});
+			$(function() {
+				var demo1 = $("#slides").slippry({
+					 speed: 2000,
+					 pause: 4000,
+					 auto: true,
+					 autoHover: true
+				});
+			});
+		
+			$("#contact").click(function(event){
+			   $(this).toggleClass("active");
+			   $("#ctacts").slideToggle(800);
+			   event.preventDefault();
+									});
+	
+
+			$("#treatmentsBtn").click(function(event){
+			   $(this).toggleClass("active");
+			   $("#treatments").slideToggle(600);
+			   event.preventDefault();
+									});
+		</script>
+
+	</body>
+
+</html>
